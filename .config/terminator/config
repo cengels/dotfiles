@@ -1,0 +1,62 @@
+[global_config]
+  borderless = True
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  handle_size = 0
+  title_font = mononoki 10
+  title_inactive_bg_color = "#3c3b37"
+  title_inactive_fg_color = "#989898"
+  title_receive_fg_color = "#989898"
+  title_transmit_bg_color = "#989898"
+  title_transmit_fg_color = "#3c3b37"
+  title_use_system_font = False
+[keybindings]
+  close_term = <Super>q
+  close_window = <Primary><Shift>q
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#21364a"
+    background_darkness = 0.82
+    background_image = None
+    background_type = transparent
+    cursor_color = "#0ad68e"
+    font = mononoki 12
+    foreground_color = "#0ad68e"
+    login_shell = True
+    palette = "#b2e9ff:#e32535:#00dd0c:#4dd2b2:#61d7ff:#6eb845:#ab3cdf:#8d8ce9:#367c97:#93353c:#008506:#359e75:#255693:#618c49:#8e35b8:#5857a3"
+    scrollback_lines = 1000
+    show_titlebar = False
+    use_system_font = False
+  [[blue]]
+    background_color = "#1a2e42"
+    background_darkness = 0.82
+    background_image = None
+    background_type = transparent
+    cursor_color = "#326cee"
+    font = mononoki 12
+    foreground_color = "#326cee"
+    login_shell = True
+    palette = "#b2e9ff:#e32535:#00dd0c:#4dd2b2:#61d7ff:#6eb845:#ab3cdf:#8d8ce9:#367c97:#93353c:#008506:#359e75:#255693:#618c49:#8e35b8:#5857a3"
+    scrollback_lines = 1000
+    show_titlebar = False
+    use_system_font = False
+  [[nierautomata]]
+    background_color = "#a39e8a"
+    background_darkness = 0.68
+    background_image = None
+    background_type = transparent
+    cursor_color = "#4d493e"
+    font = mononoki 12
+    foreground_color = "#4d493e"
+    login_shell = True
+    palette = "#635251:#f13459:#4e9a06:#fabb5c:#2c7dcf:#faddc5:#fa436e:#a89984:#503e43:#c31e52:#8ae234:#d65f4a:#285ab8:#fa9584:#a12756:#faddc5"
+    show_titlebar = False
+    use_system_font = False
