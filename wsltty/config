@@ -1,0 +1,23 @@
+# To use common configuration in %APPDATA%\mintty, simply remove this file
+Font=Hack NF
+FontHeight=10
+FontSmoothing=full
+BoldAsFont=no
+BoldAsColour=yes
+ThemeFile=indigo-fire.minttyrc
+Transparency=low
+OpaqueWhenFocused=yes
+WindowShortcuts=no
+ClicksPlaceCursor=yes
+RightClickAction=menu
+CopyOnSelect=no
+CopyAsRTF=no
+Columns=140
+Rows=36
+BellType=0
+ShowHiddenFonts=yes
+Charwidth=unicode
+Padding=10
+RowSpacing=3
+Icon=/wsl.ico
+
